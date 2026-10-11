@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "l4d2mc",
+  "version": "${version}",
+  "name": "L4D2 Minecraft Survivor",
+  "description": "Un mod de supervivencia de Minecraft inspirado en la sensación y el armamento de Left 4 Dead 2.",
+  "authors": ["TuNombre"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.yourname.l4d2mc.L4D2MCMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.20.x",
+    "fabric-api": "*"
+  }
+}

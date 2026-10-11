@@ -1,0 +1,25 @@
+{
+  "name": "L4D2 Minecraft Survivor",
+  "slug": "l4d2-minecraft-survivor",
+  "version": "0.1.0",
+  "games": [
+    {
+      "slug": "minecraft-java",
+      "role": "primary"
+    },
+    {
+      "slug": "left-4-dead-2",
+      "role": "companion"
+    }
+  ],
+  "description": "Un mashup real de Minecraft Java Edition con la identidad y sensación de supervivencia de Left 4 Dead 2.",
+  "license": "MIT",
+  "multiplayer": false,
+  "tags": ["minecraft", "survival", "mashup", "fabric"],
+  "install": {
+    "mode": "installed",
+    "destinations": [
+      {"path": "{minecraft-instance}/mods", "type": "folder"}
+    ]
+  }
+}
